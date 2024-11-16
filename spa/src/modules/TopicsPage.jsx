@@ -1,7 +1,7 @@
-function Gallery() {
+function TopicsPage() {
     return (
         <>
-            <h2>Gallery</h2>
+            <h2>Topics Page</h2>
             <article>
                 <h3></h3>
                 <p></p>
@@ -10,4 +10,4 @@ function Gallery() {
     )
 }
 
-export default Gallery;
+export default TopicsPage;
