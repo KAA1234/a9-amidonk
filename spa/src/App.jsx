@@ -14,6 +14,7 @@ import Movies from './modules/movies/MoviesPage.jsx'
 import Slogan from './modules/Slogan.jsx'
 import Navigation from './modules/Navigation.jsx';
 import { AiFillAlert } from "react-icons/ai";
+import products from './data/products.js';
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
             <Routes>
               <Route path="/homepage" element={<HomePage />}></Route>
               <Route path="/gallery" element={<Gallery/>}></Route>
-              <Route path="/order" element={<Order/>}></Route>
+              <Route path="/order" element={<Order products={products}/>}></Route>
               <Route path="/staff" element={<Staff/>}></Route>
               <Route path="/topicsPage" element={<TopicsPage/>}></Route>
               <Route path="/moviesPage" element={<Movies/>}></Route>
