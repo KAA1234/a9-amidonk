@@ -13,6 +13,7 @@ import TopicsPage from './modules/TopicsPage.jsx'
 import Movies from './modules/movies/MoviesPage.jsx'
 import Slogan from './modules/Slogan.jsx'
 import Navigation from './modules/Navigation.jsx';
+import { AiFillAlert } from "react-icons/ai";
 
 
 function App() {
@@ -21,8 +22,17 @@ function App() {
   return (
     <>
       <header>
-        <h1>Kevin Amidon</h1>
+        <h1>Kevin <i><AiFillAlert id="react-icon" /></i> Amidon</h1>
         <Slogan />
+        <meta name="robots" content="noindex" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kevin Amidon</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css' />
+    <script src='main.js'></script>
+
+    <link rel="manifest" href="site.webmanifest" />
+        
       </header>
       <Router>
         <main>

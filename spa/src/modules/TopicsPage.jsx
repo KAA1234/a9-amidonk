@@ -1,6 +1,8 @@
 function TopicsPage() {
     return (
         <>
+
+
             <h2>Web Development Concepts</h2>
             <nav class="local">
                 <a href="#webServers">Web Servers</a>
@@ -14,7 +16,7 @@ function TopicsPage() {
                 <p>
                     When a user wants to visit a webpage they input the <strong>Fully Qualified Domain Name
                         (FQDN)</strong> into their browser which resolves the IP address using a <strong>Domain Name
-                            System (DNS)</strong> server.
+                        System (DNS)</strong> server.
                     The user then connects to the server using the IP address which host the designated homepage. The
                     user's browser loads the designated homepage at the root URL
                     which is typically named <strong>index</strong> with some suffix such as .html, .js, etc. Static
@@ -132,12 +134,13 @@ function TopicsPage() {
             <article id="JavaScript">
                 <h3>JavaScript</h3>
                 <p>The main <strong>Data Types</strong> are <strong>numbers, strings, bigint, boolean, undefined, null,
-                    symbol and object.</strong> </p>
+                        symbol and object.</strong> </p>
                 <p><strong>Objects</strong> contain key value pairs, using [object].key will render the value. <strong>Arrays</strong> are similar to
                     lists, using array[index] renders the value in the arravy at that index location.
                     <strong>JSON</strong>in returns nested key value pairs and can be access similar to objects. </p>
                 <p><strong>Conditionals</strong> apply a condition to a parameter such as if 8 is greater than 2 execute some task. Loops
                     iterate over the same task repeatly until a conditions is met an then stop.
+                    
                 </p>
                 <p><strong>Object orient programing</strong> is an abstraction layer that allows the creation of a class which provides a
                     blue print for an instance of the class</p>
@@ -145,6 +148,9 @@ function TopicsPage() {
                     return predicatable outputs.</p>
 
             </article>
+
+
+
 
         </>
     )
