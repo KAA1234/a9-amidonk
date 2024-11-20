@@ -15,9 +15,11 @@ import Slogan from './modules/Slogan.jsx'
 import Navigation from './modules/Navigation.jsx';
 import { AiFillAlert } from "react-icons/ai";
 import products from './data/products.js';
+import Collectables from './modules/collectable/CollecatablePage.jsx';
 
 
 function App() {
+  const [collectable, setCollectable] = useState([]);
 
 
   return (
@@ -46,6 +48,7 @@ function App() {
               <Route path="/staff" element={<Staff/>}></Route>
               <Route path="/topicsPage" element={<TopicsPage/>}></Route>
               <Route path="/moviesPage" element={<Movies/>}></Route>
+              <Route path="/collectablesPage" element={<Collectables setCollectable={setCollectable}/>}></Route>
               <Route path="/contact" element={<Contact/>}></Route>
             </Routes>
           </section>

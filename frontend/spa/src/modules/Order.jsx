@@ -54,6 +54,7 @@ function Order({ products }) {
                                         <th colSpan="3">Current Total
 
                                         </th>
+                                        
                                     </tr>
                                 </tfoot>
                         </table>
