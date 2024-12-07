@@ -47,8 +47,10 @@ function App() {
               <Route path="/order" element={<Order products={products}/>}></Route>
               <Route path="/staff" element={<Staff/>}></Route>
               <Route path="/topicsPage" element={<TopicsPage/>}></Route>
-              <Route path="/moviesPage" element={<Movies/>}></Route>
-              <Route path="/collectablesPage" element={<Collectables setCollectable={setCollectable}/>}></Route>
+              {/* <Route path="/moviesPage" element={<Movies/>}></Route> */}
+              <Route path="/collectables" element={<Collectables setCollectable={setCollectable}/>}></Route> 
+              {/* <Route path="/collectablesAdd" element={<CollectablesAdd/>}></Route>
+              <Route path="/collectablesEdit" element={<CollectablesEdit collectableToEdit={<collectable/>} />}></Route> */}
               <Route path="/contact" element={<Contact/>}></Route>
             </Routes>
           </section>
